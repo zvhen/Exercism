@@ -1,1 +1,3 @@
-# exercism_solutions
+# Exercism Solutions 
+
+Tracking all assignments done in Exercism. 
