@@ -5,9 +5,7 @@ def add_prefix_un(word):
     return "un"+word
 
 def make_word_groups(vocab_words):
-    prefix = vocab_words[0]
-    new_list = prefix + (' :: '+prefix).join(vocab_words[1:])
-    return prefix + ' :: ' + new_list
+    return (' :: '+ vocab_words[0]).join(vocab_words)
 
 
 def remove_suffix_ness(word):
